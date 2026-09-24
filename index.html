@@ -1,4 +1,28 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"></head><body><title>Empadinha que Vende</title>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1109159201492543');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1109159201492543&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<body>
+<title>Empadinha que Vende</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,500;1,9..144,700&family=Figtree:wght@400;500;600;700;800&display=swap">
@@ -292,7 +316,7 @@
       <div class="eyebrow">E-book · Renda extra feita em casa</div>
       <h1><span class="n">30 empadinhas</span> por dia podem virar uma <em>renda extra</em> de verdade</h1>
       <p class="lead">O passo a passo que usamos para vender empadinha caseira no trabalho e na escola, sem loja e sem iFood, e chegar a R$ 2.500 num mês.</p>
-      <a class="btn js-checkout" href="#oferta">Quero o e-book agora <svg><use href="#seta"/></svg></a>
+      <a class="btn js-checkout" href="https://pay.kiwify.com.br/1pGPnZH">Quero o e-book agora <svg><use href="#seta"/></svg></a>
       <div class="confianca">
         <span><svg><use href="#raio"/></svg>Acesso imediato</span>
         <span><svg><use href="#cel"/></svg>Lê no celular</span>
@@ -481,7 +505,7 @@
         <li class="bonus"><svg><use href="#presente"/></svg><span><em>BÔNUS</em>Plaquinha do ponto de venda pronta para imprimir, com espaço para o QR Code do seu Pix</span></li>
       </ul>
       <div class="preco"><div class="v"><small>R$</small>19,90</div><div class="obs">pagamento único<br>menos que três empadinhas</div></div>
-      <a class="btn js-checkout" href="#oferta">Quero começar agora <svg><use href="#seta"/></svg></a>
+      <a class="btn js-checkout" href="https://pay.kiwify.com.br/1pGPnZH">Quero começar agora <svg><use href="#seta"/></svg></a>
       <div class="confianca"><span><svg><use href="#raio"/></svg>Receba no e-mail na hora</span><span><svg><use href="#ok"/></svg>Pix ou cartão</span></div>
       <div class="garantia">
         <div class="s"><span><b>7</b>DIAS</span></div>
@@ -515,7 +539,7 @@
   <div class="wrap">
     <h2>A próxima terça-feira pode ser o seu <em>primeiro dia de venda</em></h2>
     <p>Por R$ 19,90 você leva o caminho que a gente levou meses para descobrir.</p>
-    <a class="btn js-checkout" href="#oferta">Quero o e-book <svg><use href="#seta"/></svg></a>
+    <a class="btn js-checkout" href="https://pay.kiwify.com.br/1pGPnZH">Quero o e-book <svg><use href="#seta"/></svg></a>
   </div>
 </section>
 
@@ -525,14 +549,16 @@
 
 <div class="barra">
   <div class="p">R$ 19,90<small>acesso imediato</small></div>
-  <a class="btn js-checkout" href="#oferta">Quero o e-book</a>
+  <a class="btn js-checkout" href="https://pay.kiwify.com.br/1pGPnZH">Quero o e-book</a>
 </div>
 
 <script>
   // Cole aqui o link do checkout da Kiwify. Enquanto estiver vazio, os botões levam até a oferta.
-  const LINK_CHECKOUT = "";
+  const LINK_CHECKOUT = "https://pay.kiwify.com.br/1pGPnZH";
   if (LINK_CHECKOUT) {
-    document.querySelectorAll(".js-checkout").forEach(a => { a.href = LINK_CHECKOUT; a.target = "_blank"; a.rel = "noopener"; });
+    document.querySelectorAll(".js-checkout").forEach(a => { a.href = LINK_CHECKOUT; });
   }
 </script>
-</body></html>
+
+</body>
+</html>
